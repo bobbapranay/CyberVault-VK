@@ -1,0 +1,40 @@
+.env
+.env.*
+!.env.example
+
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local corpus and persistent vector database; obtain sources per docs.
+data/documents/
+data/chroma/
+
+# Local database files and test coverage output.
+*.db
+*.sqlite
+*.sqlite3
+*.wal
+.coverage
+htmlcov/
+
+# Credentials and private key material.
+.streamlit/secrets.toml
+credentials.json
+service-account*.json
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local IDE state and temporary output.
+.vscode/
+.idea/
+*.tmp
+*.bak
+*.log
+*.swp
+*~
